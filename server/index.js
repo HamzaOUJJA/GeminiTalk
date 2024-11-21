@@ -1,6 +1,8 @@
 import express from "express";
 import cors from "cors";
 import path from "path";
+import dotenv from 'dotenv';
+dotenv.config();
 import  { fileURLToPath } from "url";
 import chatRoutes from "./routes/chatRoutes.js";
 import userChatsRoutes from "./routes/userChatsRoutes.js";
